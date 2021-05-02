@@ -57,7 +57,7 @@ ul {
 	margin:0;
 	padding: 0;
 	height: 30px;
-	background-color: violet;
+	background-color: white;
 	width: 100%;
 }
 
@@ -131,13 +131,16 @@ p {
 
 .intro {
 	display: flex;
-	width: 100%;	
-	margin:7%;
-	padding-right: 15px;
+	
+	padding: 10%;
+	background-color: cadetblue;
 }
 .intro-text {
-	width: 50%;
+	width: 35%;
 	text-align: left;
+}
+.intro-image {
+	width: 60%;
 }
 .cardDeck {
 	display:inline-flex;
@@ -156,16 +159,38 @@ p {
 	margin: 7%;
 }
 
-
 footer {
  width: 100%;	
  display:inline-flex;
  padding-top: 20px;
  padding-bottom: 20px;
- padding-left: 7%;
- padding-right: 7%;
+ padding-left: 0;
+ padding-right: 0;
  justify-content: space-between;
  background-color: violet;
 }
 
+/* style for page 2*/
+.aboutIntro {
+	display:flex;
+	justify-content: space-evenly;
+	background-color: thistle;
+	margin: 20px;
+	padding: 30px;
+}
 
+.aboutIntro section {
+	width: 50%;
+}
+
+.aboutIntro div {
+	width: 50%;
+	justify-content: center;
+	display:flex;
+}
+
+.aboutIntro div img{
+	width: 50%;
+	padding-left: 40px;
+	align-self: center;
+}
